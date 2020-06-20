@@ -37,7 +37,7 @@ var Museum = /** @class */ (function (_super) {
         return _this;
     }
     Museum.prototype.display = function () {
-        return "\n        " + _super.prototype.display.call(this) + "\n\t\t<div class=\"col-lg-3 col-md-6 col-sm-12\">\n  \t\t<div>\n      \t<img style=\"width:22vw\" src=\"" + this.teaser + "\">\n    \t</a>\n    \t<hr>\n  \t\t</div>\n  \t\t<div class=\"col-lg-12 col-md-1 col-sm-12\">\n    \t<h4>" + this.title + "</h4>\n    \t<p><b>City:</b> " + this.City + "</p>\n    \t<p><b>ZIP-Code:</b> " + this.Zipcode + "</p>\n        <p><b>Address:</b> <br>" + this.Address + "</p>\n        <p><b>Fee:</b> " + this.entryfee + "</p>\n    \t<p><b>Tel.:</b>" + this.telephonenumber + "</p>\n    \t<p><b>Exhibit: </b>" + this.type + "</p>\n    \t<p><b>Website: </b><a href=\"" + this.webaddress + "\"$</a>" + this.title + "</p>\n    \t<hr>\n  \t\t</div>\n\t\t</div>\n        ";
+        return "\n        " + _super.prototype.display.call(this) + "\n\t\t<div class=\"col-lg-3 col-md-6 col-sm-12\">\n  \t\t<div>\n      \t<img style=\"width:22vw\" src=\"" + this.teaser + "\">\n    \t</a>\n    \t<hr>\n  \t\t</div>\n  \t\t<div class=\"col-lg-12 col-md-1 col-sm-12\">\n    \t<h4>" + this.title + "</h4>\n    \t<p><b>City:</b> " + this.City + "</p>\n    \t<p><b>ZIP-Code:</b> " + this.Zipcode + "</p>\n        <p><b>Address:</b> <br>" + this.Address + "</p>\n        <p><b>Fee:</b> " + this.entryfee + "</p>\n    \t<p><b>Tel.:</b>" + this.telephonenumber + "</p>\n    \t<p><b>Exhibit: </b>" + this.type + "</p>\n    \t<p><b>Website: </b><a href=\"" + this.webaddress + "\"$</a>" + this.title + "</p>\n  \t\t</div>\n\t\t</div>\n        ";
     };
     return Museum;
 }(Locate));
@@ -52,7 +52,7 @@ var Exhibition = /** @class */ (function (_super) {
         return _this;
     }
     Exhibition.prototype.display = function () {
-        return "\n        " + _super.prototype.display.call(this) + "\n\t\t<div class=\"col-lg-3 col-md-6 col-sm-12\">\n  \t\t<div>\n      \t<img style=\"width:22vw\" src=\"" + this.teaser + "\">\n    \t</a>\n    \t<hr>\n  \t\t</div>\n  \t\t<div class=\"col-lg-12 col-md-1 col-sm-12\">\n    \t<h4 class=\"\">" + this.title + "</h4>\n    \t<p><b>City:</b> " + this.City + "</p>\n    \t<p><b>ZIP-Code:</b> " + this.Zipcode + "</p>\n        <p><b>Address:</b> <br>" + this.Address + "</p>\n        <p><b>Fee:</b> " + this.entryfee + "</p>\n    \t<p><b>Date: </b>" + this.eventdate + "</p>\n    \t<p><b>Time: </b>" + this.eventtime + "</p>\n    \t<hr>\n  \t\t</div>\n\t\t</div>\n        ";
+        return "\n        " + _super.prototype.display.call(this) + "\n\t\t<div class=\"col-lg-3 col-md-6 col-sm-12\">\n  \t\t<div>\n      \t<img style=\"width:22vw\" src=\"" + this.teaser + "\">\n    \t</a>\n    \t<hr>\n  \t\t</div>\n  \t\t<div class=\"col-lg-12 col-md-1 col-sm-12\">\n    \t<h4 class=\"\">" + this.title + "</h4>\n    \t<p><b>City:</b> " + this.City + "</p>\n    \t<p><b>ZIP-Code:</b> " + this.Zipcode + "</p>\n        <p><b>Address:</b> <br>" + this.Address + "</p>\n        <p><b>Fee:</b> " + this.entryfee + "</p>\n    \t<p><b>Date: </b>" + this.eventdate + "</p>\n    \t<p><b>Time: </b>" + this.eventtime + "</p>\n  \t\t</div>\n\t\t</div>\n        ";
     };
     return Exhibition;
 }(Locate));

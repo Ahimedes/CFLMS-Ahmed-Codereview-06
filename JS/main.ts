@@ -52,7 +52,6 @@ class Museum extends Locate {   //extension with data of museums
     	<p><b>Tel.:</b>${this.telephonenumber}</p>
     	<p><b>Exhibit: </b>${this.type}</p>
     	<p><b>Website: </b><a href="${this.webaddress}"$</a>${this.title}</p>
-    	<hr>
   		</div>
 		</div>
         `;
@@ -91,7 +90,6 @@ class Exhibition extends Locate {   //extension with data of tours
         <p><b>Fee:</b> ${this.entryfee}</p>
     	<p><b>Date: </b>${this.eventdate}</p>
     	<p><b>Time: </b>${this.eventtime}</p>
-    	<hr>
   		</div>
 		</div>
         `;
