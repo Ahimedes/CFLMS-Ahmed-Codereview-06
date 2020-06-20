@@ -40,7 +40,6 @@ class Museum extends Locate {   //extension with data of museums
 		<div class="col-lg-3 col-md-6 col-sm-12">
   		<div>
       	<img style="width:22vw" src="${this.teaser}">
-    	</a>
     	<hr>
   		</div>
   		<div class="col-lg-12 col-md-1 col-sm-12">
@@ -79,7 +78,6 @@ class Exhibition extends Locate {   //extension with data of tours
 		<div class="col-lg-3 col-md-6 col-sm-12">
   		<div>
       	<img style="width:22vw" src="${this.teaser}">
-    	</a>
     	<hr>
   		</div>
   		<div class="col-lg-12 col-md-1 col-sm-12">
